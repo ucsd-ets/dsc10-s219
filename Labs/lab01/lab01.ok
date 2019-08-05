@@ -1,6 +1,6 @@
 {
   "name": "Lab 1: Expressions",
-  "endpoint": "ucsd/dsc10/sp19/lab01",
+  "endpoint": "ucsd/dsc10/s219/lab01",
   "src": [
     "lab01.ipynb"
   ],
