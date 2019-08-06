@@ -1,8 +1,8 @@
 {
-  "name": "Lab 1: Expressions",
-  "endpoint": "ucsd/dsc10/su19/lab01",
+  "name": "Homework 1: Causality and Expressions",
+  "endpoint": "ucsd/dsc10/su19/hw01",
   "src": [
-    "lab01.ipynb"
+    "hw01.ipynb"
   ],
   "tests": {
       "tests/q*.py": "ok_test"
