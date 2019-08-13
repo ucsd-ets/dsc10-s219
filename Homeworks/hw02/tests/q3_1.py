@@ -1,13 +1,14 @@
 test = {
-  'name': 'Question 5_1',
+  'name': 'Question 3_1',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> dissimilarity
-          1063
+          >>> import numpy
+          >>> isinstance(index_of_third, numpy.int64) or isinstance(index_of_third, int)
+          True
           """,
           'hidden': False,
           'locked': False

@@ -1,15 +1,15 @@
 test = {
-  'name': 'Question 4_',
+  'name': 'Question 2_2',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> jobs_q1
-          2
-          >>> jobs_q2
-          2
+          >>> import numpy as np
+          >>> # It looks like you didn't make an array.
+          >>> isinstance(words, np.ndarray)
+          True
           """,
           'hidden': False,
           'locked': False

@@ -1,13 +1,15 @@
 test = {
-  'name': 'Question 5_2',
+  'name': 'Question 1_2',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> universities_q2
-          2
+          >>> isinstance(least_volume, str)
+          True
+          >>> isinstance(most_volume, str)
+          True
           """,
           'hidden': False,
           'locked': False

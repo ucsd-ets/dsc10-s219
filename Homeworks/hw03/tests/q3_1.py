@@ -1,14 +1,14 @@
 test = {
-  'name': 'Question 2_',
+  'name': 'Question 3_1',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> characters_q1
-          3
-          >>> characters_q2 == 3
+          >>> isinstance(outage_2010, float)
+          True
+          >>> 0 <= outage_2010 <= 1
           True
           """,
           'hidden': False,

@@ -1,15 +1,13 @@
 test = {
-  'name': 'Question 3_',
+  'name': 'Question 3_4',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> names_q1
-          2
-          >>> names_q2
-          4
+          >>> isinstance(life_years, int)
+          True
           """,
           'hidden': False,
           'locked': False
