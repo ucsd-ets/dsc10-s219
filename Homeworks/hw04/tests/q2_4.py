@@ -1,12 +1,12 @@
 test = {
-  'name': 'Question 1_7',
+  'name': 'Question 2_4',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(shortest_names, np.ndarray)
+          >>> callable(final_four)
           True
           """,
           'hidden': False,

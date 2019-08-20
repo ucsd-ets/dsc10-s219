@@ -8,15 +8,15 @@ test = {
           'code': r"""
           >>> isinstance(grades, np.ndarray)
           True
-          >>> "A+" in grades
-          True
           >>> "A" in grades
           True
           >>> "B" in grades
           True
+          >>> "C+" in grades
+          True
           >>> "C" in grades
           True
-          >>> "D" in grades
+          >>> "C-" in grades
           True
           >>> "F" in grades
           True

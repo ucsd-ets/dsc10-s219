@@ -8,11 +8,11 @@ test = {
           'code': r"""
           >>> callable(lastname_length)
           True
-          >>> lastname_length('Tiefenbruck, Janine') == "normal"
+          >>> lastname_length('Quer, Giorgio') == "very short"
           True
-          >>> lastname_length('Schwinghammer, Rob') == "very long"
+          >>> lastname_length('Twomey, Robert') == "normal"
           True
-          >>> lastname_length('Fan, Shicheng') == "very short"
+          >>> lastname_length('Tiefenbruck, Janine') == "very long"
           True
           """,
           'hidden': False,

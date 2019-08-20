@@ -8,7 +8,7 @@ test = {
           'code': r"""
           >>> callable(pass_midterm)
           True
-          >>> isinstance(pass_midterm(False, False, False, False, True, False, False), bool) # double check your return value
+          >>> isinstance(pass_midterm(True, True, True, False, False, False, True, False), bool) # double check your return value
           True
           """,
           'hidden': False,
