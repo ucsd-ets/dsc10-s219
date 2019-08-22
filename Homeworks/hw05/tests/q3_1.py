@@ -1,12 +1,14 @@
 test = {
-  'name': 'Question 1_7',
+  'name': 'Question 3_1',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(shortest_names, np.ndarray)
+          >>> isinstance(restored_records, list)
+          True
+          >>> len(restored_records) > 0 
           True
           """,
           'hidden': False,

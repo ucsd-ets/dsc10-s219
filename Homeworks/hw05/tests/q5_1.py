@@ -1,12 +1,13 @@
 test = {
-  'name': 'Question 1_7',
+  'name': 'Question 5_1',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(shortest_names, np.ndarray)
+          >>> import numpy as np
+          >>> isinstance(my_dice, np.ndarray)
           True
           """,
           'hidden': False,

@@ -1,12 +1,12 @@
 test = {
-  'name': 'Question 1_7',
+  'name': 'Question 4_1',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(shortest_names, np.ndarray)
+          >>> isinstance(jackpot_chance, float)
           True
           """,
           'hidden': False,

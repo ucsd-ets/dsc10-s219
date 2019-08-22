@@ -1,12 +1,12 @@
 test = {
-  'name': 'Question 1_7',
+  'name': 'Question 4_2',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(shortest_names, np.ndarray)
+          >>> isinstance(non_losing_prob, float)
           True
           """,
           'hidden': False,

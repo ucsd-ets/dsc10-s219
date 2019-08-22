@@ -1,12 +1,12 @@
 test = {
-  'name': 'Question 1_7',
+  'name': 'Question 4_3',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(shortest_names, np.ndarray)
+          >>> callable(simulate_one_ticket)
           True
           """,
           'hidden': False,

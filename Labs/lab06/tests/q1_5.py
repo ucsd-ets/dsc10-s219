@@ -1,12 +1,12 @@
 test = {
-  'name': 'Question 1_7',
+  'name': '',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(shortest_names, np.ndarray)
+          >>> min_estimate == min(observations) - 1
           True
           """,
           'hidden': False,

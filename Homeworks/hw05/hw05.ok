@@ -1,8 +1,8 @@
 {
-  "name": "Homework 4: Functions, Apply, Group, Conditionals, and Iteration",
-  "endpoint": "ucsd/dsc10/su19/hw04",
+  "name": "Homework 5: Group, Join, Conditionals, Iteration, Randomness.",
+  "endpoint": "ucsd/dsc10/su19/hw05",
   "src": [
-    "hw04.ipynb"
+    "hw05.ipynb"
   ],
   "tests": {
       "tests/q*.py": "ok_test"

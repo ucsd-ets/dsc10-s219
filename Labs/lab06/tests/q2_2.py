@@ -1,14 +1,20 @@
 test = {
-  'name': 'Question 3_1',
+  'name': 'Question',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> callable(pass_midterm)
+          >>> round(float(compute_statistics(full_data)[0]), 2) == 26.54
           True
-          >>> isinstance(pass_midterm(True, True, True, False, False, False, True, False), bool) # double check your return value
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> round(float(compute_statistics(full_data)[1]), 2) == 4269775.77
           True
           """,
           'hidden': False,

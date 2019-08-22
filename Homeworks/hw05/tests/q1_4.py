@@ -1,12 +1,14 @@
 test = {
-  'name': 'Question 1_7',
+  'name': 'Question 1_4',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(shortest_names, np.ndarray)
+          >>> isinstance(multiple_owners, float)
+          True
+          >>> (multiple_owners >= 0) and (multiple_owners <= 1) # 0 <= some_proportion <= 1
           True
           """,
           'hidden': False,

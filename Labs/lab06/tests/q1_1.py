@@ -1,12 +1,12 @@
 test = {
-  'name': 'Question 1_7',
+  'name': '',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(shortest_names, np.ndarray)
+          >>> 12 <= modified_result <= 32
           True
           """,
           'hidden': False,

@@ -1,13 +1,21 @@
 test = {
-  'name': 'Question 1_7',
+  'name': 'Question',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(shortest_names, np.ndarray)
-          True
+          >>> convenience_sample.num_columns
+          11
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> convenience_sample.num_rows
+          44
           """,
           'hidden': False,
           'locked': False

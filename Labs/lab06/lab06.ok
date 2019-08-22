@@ -1,8 +1,8 @@
 {
-  "name": "Homework 4: Functions, Apply, Group, Conditionals, and Iteration",
-  "endpoint": "ucsd/dsc10/su19/hw04",
+  "name": "Statistics_and_sampling",
+  "endpoint": "ucsd/dsc10/su19/lab06",
   "src": [
-    "hw04.ipynb"
+    "lab06.ipynb"
   ],
   "tests": {
       "tests/q*.py": "ok_test"

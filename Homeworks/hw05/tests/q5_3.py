@@ -1,12 +1,14 @@
 test = {
-  'name': 'Question 1_7',
+  'name': 'Question 5_3',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(shortest_names, np.ndarray)
+          >>> callable(reroll)
+          True
+          >>> len(reroll_array) == 20000
           True
           """,
           'hidden': False,
